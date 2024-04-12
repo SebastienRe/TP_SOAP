@@ -1,2 +1,3 @@
 WSSOAP.war
 WEB-INF/classes
+**/*.class
