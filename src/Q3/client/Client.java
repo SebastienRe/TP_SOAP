@@ -9,7 +9,7 @@ public class Client {
     public static void main(String[] args) throws Exception {
         String nameSpaceURI = "http://serveur.Q3.src/";
         String nomService = "MonService";
-        URL wsdlUrl = new URL("http://localhost:8080/WSSOAP/" + nomService + "Service?wsdl");
+        URL wsdlUrl = new URL("http://localhost:8080/WSSOAPQ3/" + nomService + "Service?wsdl");
         QName qname = new QName(nameSpaceURI, nomService + "Service");
         Service service = Service.create(wsdlUrl, qname);
 
